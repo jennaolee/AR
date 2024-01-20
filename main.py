@@ -1,27 +1,3 @@
-# from taipy.gui import Gui
-
-# text = "Original text"
-
-# page = """
-# # Getting started with Taipy GUI
-
-# My text: <|{text}|>
-
-# <|{text}|input|>
-
-# <|layout|columns=1 1 1|
-# Button in first column <|Press|button|> <|{show}|pane|anchor=left|>
-
-# Second column
-
-# Third column
-# |>
-
-# """
-
-# Gui(page).run()
-
-
 from taipy.gui import Gui
 
 show_pane=True
