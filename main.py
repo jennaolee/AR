@@ -11,21 +11,25 @@ page="""
 <|{content}|image|content=sapphireRing.png|width=275px|height=275px|on_action={lambda s: s.assign("show_pane", True)}|>
 {: .p0 .m0 }
 |>
+<|Try This|button|>
 
 <|card card-bg|
 <|{content}|image|content=twistedRing.png|width=275px|height=275px|on_action={lambda s: s.assign("show_pane", True)}|>
 {: .p0 .m0 }
 |>
+<|Try This|button|>
 
 <|card card-bg|
 <|{content}|image|content=pinkRing.png|width=275px|height=275px|on_action={lambda s: s.assign("show_pane", True)}|>
 {: .p0 .m0 }
 |>
+<|Try This|button|>
 
 <|card card-bg|
 <|{content}|image|content=doubleRing.png|width=275px|height=275px|on_action={lambda s: s.assign("show_pane", True)}|>
 {: .p0 .m0 }
 |>
+<|Try This|button|>
 
 <|d-inline|
 <|{show_pane}|pane|persistent|anchor=bottom|
